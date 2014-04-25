@@ -1,6 +1,11 @@
 
 <% if @visitor %>
 		Hello, <%= @visitor %>!
+    Do you want to see my page?
+    <form action="/berry">
+    <input type="text" name="berry">
+    <input type="submit">
+    </form>
 	<% else %>
 		<form action="/hello">
 		My name is <%= @name %>.
