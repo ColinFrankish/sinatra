@@ -2,16 +2,16 @@
 <% if @visitor %>
 		Hello, <%= @visitor %>!
     Do you want to see my page?
-    <form action="/berry">
-    <input type="text" name="berry">
-    <input type="submit">
-    </form>
+      <form action="/berry">
+        <input type="text" name="berry">
+        <input type="submit">
+      </form>
 	<% else %>
 		<form action="/hello">
-		My name is <%= @name %>.
-		Whats your name ?
-		<input type="text" name="name">
-		<input type="submit">
+		  My name is <%= @name %>.
+		  Whats your name ?
+		  <input type="text" name="name">
+		  <input type="submit">
 		</form>
 	<% end %>
 <img src='/images/kitten.png'>

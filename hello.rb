@@ -1,9 +1,4 @@
 require 'sinatra'
-
-# get '/' do 
-#   'hello!!!'
-  
-# end
  
 get '/secret' do
   erb :secret
@@ -18,9 +13,6 @@ get '/hello' do
     erb :index
 end
 
-# get '/berry' do
-#   erb :berry if params[:berry] == "yes" ||= '/'
-# end
 get '/berry' do
   if params[:berry] == "yes" then erb :berry
   else
