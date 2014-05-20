@@ -18,6 +18,8 @@ body {
 img {
   background-color: salmon;
   float: center;
+  border-radius: 10em;
+
 }
 #news {
   text-decoration: none;
@@ -42,5 +44,8 @@ div {
   border-radius: 2em;
 }
 #hello {
+  text-align: center;
+}
+h2 {
   text-align: center;
 }
