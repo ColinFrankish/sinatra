@@ -1,17 +1,23 @@
+body {
+  background-color: #f0ffe0;
+}
+
 .kitten {
 	border: 3px solid green;
   background-color: pink;
-  width: 30em;
+  width: 50em;
   margin: auto;
 
 }
 .next_div {
   background-color: beige;
-  width: 480px;
+  width: 50em;
   margin: auto;
+  padding: 2em;
 }
-div img {
+img {
   background-color: salmon;
+  float: center;
 }
 #news {
   text-decoration: none;
@@ -22,5 +28,19 @@ div div div {
   background-color: #25DBCF;
 }
 div div {
-  ba
+  padding: 2em;
+}
+.information {
+  width: 100%;
+  height: 10em;
+  background-color: #ebf5ff;
+  text-align: center;
+  font-size: 2em;
+  
+}
+div {
+  border-radius: 2em;
+}
+#hello {
+  text-align: center;
 }
